@@ -1,4 +1,4 @@
-	/*
+/*
  *	Header file
  */
 
@@ -12,6 +12,7 @@
  ******************************************************************************/
 #include <sum.h>
 #include <subt.h>
+#include <mult.h>
 
 /*******************************************************************************
  * FUNCTION DEFINITION
@@ -30,6 +31,12 @@ int main(void)
 
 	/* Perform addition */
 	c = subt(a, b);
+
+	/* Print result */
+	printf("c = %d\n", c);
+
+	/* Perform multiplication */
+	c = mult(a, b);
 
 	/* Print result */
 	printf("c = %d\n", c);

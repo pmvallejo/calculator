@@ -1,9 +1,5 @@
 # Makefile
 
-#target: dependency1 dependency2
-#	action1
-#	action2
-
 # COMPILER
 CC = gcc
 
@@ -18,6 +14,7 @@ SRC :=
 SRC += ./src/main.c
 SRC += ./src/operations/sum.c
 SRC += ./src/operations/subt.c
+SRC += ./src/operations/mult.c
 
 # Directory for header files
 INCLUDES = -I ./inc
